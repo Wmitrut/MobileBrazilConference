@@ -24,7 +24,7 @@ body {
 } 
 
 .body{
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 img {
@@ -67,20 +67,19 @@ ul {
 	padding: 2px;;
 }
 
-.face {
-	background: url(../img/icons/sprite-network.png) -8px -5px no-repeat;
+.face, .mail {
 	display: block;
-	width: 30px;
-	height: 27px;
+	width: 45px;
+	height: 50px;
 	float: left;
 }
 
+.face {
+	background: url(../img/icons/sprite-menu.png) 10px 10px no-repeat;
+}
+
 .mail {
-	background: url(../img/icons/sprite-network.png) -44px -5px no-repeat;
-	display: block;
-	width: 30px;
-	height: 27px;
-	float: left;
+	background: url(../img/icons/sprite-menu.png) -52px 10px no-repeat;
 }
 
 a:hover {
@@ -96,7 +95,11 @@ a:hover {
 	opacity: .90;
 }
 
-.brand,.anchorLink {
+.navbar .brand {
+	margin-left: 0px;
+}
+
+.brand,.nav-menu {
 	text-transform: uppercase;
 	letter-spacing: -0.05em;
 	transition: all 0.3s ease-out 0s;
@@ -108,8 +111,16 @@ a:hover {
 	display: block;
 }
 
-.brand {
-	padding: 0px;
+.container{
+	padding: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
 }
 
 li.face-like {
