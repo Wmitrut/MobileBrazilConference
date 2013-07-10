@@ -1,0 +1,139 @@
+html,body,div,span,figure,h1,h2,h3,h4,p,a,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,details,figure,figcaption,footer,header,hgroup,nav,section,img {
+	border:0;
+	font-size:100%;
+	font:inherit;
+	margin:0;
+	padding:0;
+}
+
+html,body,input {
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	line-height:1.5;
+	font-weight:400;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+} 
+
+body {
+	background-color:#f7fcff;
+	background-image:linear-gradient(top,#f7fcff0%,#ffffff26%,#ffffff100%);
+	background-attachment:fixed;
+	text-align:center;
+	overflow:hidden;
+	position:static;
+} 
+
+.body{
+	padding-top: 60px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+	text-align:center;
+	position:relative;
+	width:100%;
+	height:100%;
+	top:0;
+}
+
+.logo div {
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.logo_mobile img {
+	max-width: 50%;
+	z-index: 1;
+}
+
+.redes li{
+	float: left !important;
+}
+
+.redes div{
+	float: left !important;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul {
+	padding: 2px;;
+}
+
+.face {
+	background: url(../img/icons/sprite-network.png) -8px -5px no-repeat;
+	display: block;
+	width: 30px;
+	height: 27px;
+	float: left;
+}
+
+.mail {
+	background: url(../img/icons/sprite-network.png) -44px -5px no-repeat;
+	display: block;
+	width: 30px;
+	height: 27px;
+	float: left;
+}
+
+a:hover {
+	filter:alpha(opacity=70);
+    -moz-opacity:0.70;
+    opacity:0.70;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	opacity: .90;
+}
+
+.brand,.anchorLink {
+	text-transform: uppercase;
+	letter-spacing: -0.05em;
+	transition: all 0.3s ease-out 0s;
+	font-size: 1.2em;
+	line-height: 50px;
+	padding: 0 16px;
+	border-right: 1px solid #d1d1d1;
+	border-left: 1px solid #fff;
+	display: block;
+}
+
+.brand {
+	padding: 0px;
+}
+
+li.face-like {
+	float: right !important;
+	padding: 2px;
+}
+
+/*media queries*/
+@media only screen and (min-width: 1281px) {
+
+	.body {
+		padding-top: 100px;
+	}
+}
+
+@media screen and (device-aspect-ratio: 16/9) {
+	.body {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.logo-mobile img {
+		width: auto;
+	}
+	
+}
