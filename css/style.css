@@ -19,44 +19,7 @@ body {
 	background-image:linear-gradient(top,#f7fcff0%,#ffffff26%,#ffffff100%);
 	background-attachment:fixed;
 	text-align:center;
-	overflow:hidden;
 	position:static;
-} 
-
-.body{
-	padding-top: 80px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.logo {
-	text-align:center;
-	position:relative;
-	width:100%;
-	height:100%;
-	top:0;
-}
-
-.logo div {
-	display:block;
-	position:absolute;
-	width:100%;
-	height:100%;
-}
-
-.logo_mobile img {
-	max-width: 50%;
-	z-index: 1;
-}
-
-.redes li{
-	float: left !important;
-}
-
-.redes div{
-	float: left !important;
 }
 
 ul li {
@@ -99,7 +62,7 @@ a:hover {
 	margin-left: 0px;
 }
 
-.brand,.nav-menu {
+.nav-menu {
 	text-transform: uppercase;
 	letter-spacing: -0.05em;
 	transition: all 0.3s ease-out 0s;
@@ -109,6 +72,38 @@ a:hover {
 	border-right: 1px solid #dddddd;
 	border-left: 1px solid #fff;
 	display: block;
+}
+
+.cover-page {
+	padding-top: 80px;
+	height: 650px; 
+	background: url(../img/intro_icon_fg.png), url(../img/intro_icon_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+	text-align:center;
+	position:relative;
+	width:100%;
+	height:100%;
+	top:0;
+}
+
+.logo div {
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.logo_mobile img {
+	max-width: 50%;
+	z-index: 1;
 }
 
 .container{
@@ -128,23 +123,16 @@ li.face-like {
 	padding: 2px;
 }
 
-/*media queries*/
-@media only screen and (min-width: 1281px) {
-
-	.body {
-		padding-top: 100px;
-	}
+#about {
+	height: 650px; 
+	background: #fcfcfc url('../img/bg_gray.png');
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-@media screen and (device-aspect-ratio: 16/9) {
-	.body {
-		padding-top: 100px;
-	}
-}
-
-@media only screen and (max-width: 960px) {
-	.logo-mobile img {
-		width: auto;
-	}
-	
-}
+.pic1,.pic2,.pic3,.pic4,.pic5{width:100%;height:100%;background-repeat:no-repeat;position:absolute;left:0;display:block;}
+.pic1{background-image:url('../img/blur1.png');background-position:200px 120px;}
+.pic2{background-position:83px 527px;background-image:url('../img/blur2.png');}
+.pic3{background-position:right 590px;background-image:url('../img/blur3.png');}
+.pic4,.pic5{background-position:right 48px;background-image:url('../img/blur4.png');}
+.pic5{left:auto;background-position:273px 1658px;right:auto;}
