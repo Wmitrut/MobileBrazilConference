@@ -130,19 +130,19 @@ li.face-like {
 /** menu Sobre - about **/
 .about {
 	padding: 120px 0; 
-	background: #00AFEF;
+	background: #72D0F6;
 }
 
 .about-title {
 	padding-top: 50px;
 	font-family: 'Amaranth';
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 44px;
 	line-height: 40px;
 }
 
 .about-title-mobile {
-	font-size: 60px;
+	font-size: 66px;
 	line-height: 60px;
 }
 
@@ -165,17 +165,22 @@ li.face-like {
 /** end menu about **/
 
 /** menu speakers - palestrantes **/
-.speakers, .sponsors{
+.speakers, .sponsors,.local{
 	padding: 80px 0; 
 	background: url('../img/cream_pixels.png');
 }
 
-.title-speakers, .title-sponsors {
+.title-speakers, .title-sponsors,.title-local {
 	font-size: 3.3em;
 	padding: 24px 0;
 	color: #00AFEF;
 	font-weight: bold;
 	text-align: left;
+}
+
+.title-second{
+	color:#ED207B;
+	font-size: 3.3em;
 }
 
 .speaker-resume {
