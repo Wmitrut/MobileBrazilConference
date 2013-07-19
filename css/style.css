@@ -130,13 +130,13 @@ li.face-like {
 /** menu Sobre - about **/
 .about {
 	padding: 120px 0; 
-	background: #72D0F6;
+	background: url('../img/cream_pixels.png');
 }
 
 .about-title {
 	padding-top: 50px;
 	font-family: 'Amaranth';
-	color: #ffffff;
+	color: #00AFEF;
 	font-size: 44px;
 	line-height: 40px;
 }
@@ -170,7 +170,7 @@ li.face-like {
 	background: url('../img/cream_pixels.png');
 }
 
-.title-speakers, .title-sponsors,.title-local {
+.title-speakers, .title-sponsors {
 	font-size: 3.3em;
 	padding: 24px 0;
 	color: #00AFEF;
@@ -224,4 +224,49 @@ li.face-like {
 .section-title {
 	font-family: "allerbold",Aller,Helvetica,Arial,sans-serif;
 	margin-left: -3px;
+}
+
+#local #ctn-people img{
+	float: left;
+}
+#local #address{
+	float: left;	
+	padding-left: 30px;	
+}
+
+#local #address{
+	color: #9A9A9A;
+	font-size: 18px;
+}
+
+#local #map{
+	position: absolute;
+	float: left;
+	margin-top: 225px;
+	margin-left: 403px;
+}
+
+#local #sponsor-local{
+	clear: both;
+}
+
+#local #sponsor-local a img{
+	float: left;
+	margin-right: 15px;
+}
+
+#local #sponsor-local h2{
+	font-family: 'Amaranth';
+	line-height: 35px;
+	color: #ED207B;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+.title-local {
+	font-size: 3.3em;
+	color: #00AFEF;
+	font-family: 'Amaranth';
+	font-weight: bold;
+	text-align: left;
 }
