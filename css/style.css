@@ -1,7 +1,5 @@
 html,body,div,span,figure,h1,h2,h3,h4,p,a,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,details,figure,figcaption,footer,header,hgroup,nav,section,img {
 	border:0;
-	font-size:100%;
-	font:inherit;
 	margin:0;
 	padding:0;
 }
@@ -130,22 +128,21 @@ li.face-like {
 	padding: 2px;
 }
 
-/** menu Sobre - about **/
-.about {
+.about, .local {
 	padding: 120px 0; 
-	background: #00AFEF;
+	background-color: #00AFEF;
 }
 
 .about-title {
 	padding-top: 60px;
 	font-family: 'Amaranth';
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 44px;
 	line-height: 40px;
 }
 
 .about-title-mobile {
-	font-size: 60px;
+	font-size: 66px;
 	line-height: 60px;
 }
 
@@ -165,11 +162,12 @@ li.face-like {
 	padding: 35px 50px;
 }
 
-/** end menu about **/
-
-/** menu speakers - palestrantes **/
 .speakers, .sponsors{
-	padding: 80px 0; 
+	padding: 70px 0; 
+	background: url('../img/cream_pixels.png');
+}
+
+.partners{ 
 	background: url('../img/cream_pixels.png');
 }
 
@@ -181,13 +179,22 @@ li.face-like {
 	text-align: left;
 }
 
+.title-partners {
+	font-size: 2.1em;
+	color: #00AFEF;
+	font-weight: bold;
+	text-align: left;
+}
+
+.title-second{
+	color:#ED207B;
+	font-size: 3.3em;
+}
+
 .speaker-resume {
 	padding: 20px 0;
 }
 
- /** end menu speakers **/
-
-/** menu Inscrições - enrollment **/
 #enrollment {
 	padding-top: 0;
 	margin-bottom: 0;
@@ -219,4 +226,67 @@ li.face-like {
 .section-title {
 	font-family: 'Amaranth';
 	margin-left: -3px;
+}
+
+.event-contact h3, p{
+	color: #666666;
+	font:inherit;
+	font-size: 100%;
+}
+
+.event-contact h3{
+	font-size: 20px
+}
+
+.event-contact u{
+	color: #00AFEF;
+}
+
+.event-contact p{
+	font-size: 14px;
+}
+
+#local #ctn-people img{
+	float: left;
+}
+#local #address{
+	float: left;	
+	padding-left: 30px;	
+}
+
+#local #address{
+	color: #9A9A9A;
+	font-size: 18px;
+}
+
+#local #map{
+	position: absolute;
+	float: left;
+	margin-top: 225px;
+	margin-left: 403px;
+}
+
+#local #sponsor-local{
+	clear: both;
+}
+
+#local #sponsor-local a img{
+	float: left;
+	margin-right: 15px;
+}
+
+#local #sponsor-local h2{
+	font-family: 'Amaranth';
+	line-height: 35px;
+	color: #ED207B;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+.title-local {
+	font-size: 3.3em;
+	color: #ffffff;
+	font-family: 'Amaranth';
+	font-weight: bold;
+	text-align: left;
 }
