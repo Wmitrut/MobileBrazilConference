@@ -106,7 +106,6 @@ img {
 }
 
 .logo_mobile img {
-	max-width: 50%;
 	z-index: 1;
 }
 
@@ -114,6 +113,10 @@ img {
 	padding: 0;
 	width: 100%;
 	z-index: 10;
+}
+
+.row {
+	margin-left: 0px;
 }
 
 .wrapper {
@@ -134,7 +137,7 @@ li.face-like {
 }
 
 .about-title {
-	padding-top: 50px;
+	padding-top: 60px;
 	font-family: 'Amaranth';
 	color: #ffffff;
 	font-size: 40px;
@@ -180,12 +183,11 @@ li.face-like {
 
 .speaker-resume {
 	padding: 20px 0;
-	border: 1px solid #000;
 }
 
  /** end menu speakers **/
 
-
+/** menu Inscrições - enrollment **/
 #enrollment {
 	padding-top: 0;
 	margin-bottom: 0;
@@ -211,12 +213,10 @@ li.face-like {
 }
 
 .has-emphasis {
-	font-family: 'Amaranth';
 	color: #ffffff;
-	text-transform: uppercase;
 }
 
 .section-title {
-	font-family: "allerbold",Aller,Helvetica,Arial,sans-serif;
+	font-family: 'Amaranth';
 	margin-left: -3px;
 }
