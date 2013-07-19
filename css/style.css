@@ -109,7 +109,6 @@ img {
 
 .container{
 	padding: 0;
-	width: 100%;
 	z-index: 10;
 }
 
@@ -128,7 +127,7 @@ li.face-like {
 	padding: 2px;
 }
 
-.about, .local {
+.about {
 	padding: 120px 0; 
 	background-color: #00AFEF;
 }
@@ -162,7 +161,7 @@ li.face-like {
 	padding: 35px 50px;
 }
 
-.speakers, .sponsors{
+.speakers, .sponsors, .local{
 	padding: 70px 0; 
 	background: url('../img/cream_pixels.png');
 }
