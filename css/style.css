@@ -127,7 +127,7 @@ li.face-like {
 	padding: 2px;
 }
 
-.about {
+.about, .enrollment {
 	padding: 120px 0; 
 	background-color: #00AFEF;
 }
@@ -213,7 +213,7 @@ li.face-like {
 .enrollment .section-title {
 	position: relative;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 75px;
 	margin-bottom: 20px;
 	font-size: 1.8em;
 }
@@ -284,7 +284,7 @@ li.face-like {
 
 .title-local {
 	font-size: 3.3em;
-	color: #ffffff;
+	color: #00AFEF;
 	font-family: 'Amaranth';
 	font-weight: bold;
 	text-align: left;
