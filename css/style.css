@@ -171,6 +171,11 @@ li.face-like {
 	padding: 0 0 70px 0; 
 }
 
+a:hover .link {
+	opacity: 0.50;
+	padding-bottom: 3px;
+}
+
 .title-speakers, .title-sponsors,
 .title-partners,
 .title-local  {
@@ -181,14 +186,6 @@ li.face-like {
 	text-align: left;
 	text-transform: uppercase;
 }
-
-/*.title-partners {
-	text-transform: uppercase;
-	font-size: 2.1em;
-	color: #00AFEF;
-	font-weight: bold;
-	text-align: left;
-}*/
 
 .title-second{
 	color:#ED207B;
