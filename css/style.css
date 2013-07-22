@@ -136,6 +136,23 @@ li.face-like {
 	background-color: #00AFEF;
 }
 
+.organizers {
+	background-color: #00AFEF;
+	padding: 20px;
+}
+
+.organizers-title{
+	color: #ffffff;
+}
+
+.organizers-name{
+	font-size: 1.6em;
+	text-transform: uppercase;
+	letter-spacing: -0.09em;
+	color: #fff;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+}
+
 .about-title {
 	padding-top: 60px;
 	font-family: 'Amaranth';
@@ -182,13 +199,17 @@ a:hover .link {
 
 .title-speakers, .title-sponsors,
 .title-partners,
-.title-local  {
+.title-local, .title-organizers  {
 	font-size: 3.3em;
 	padding: 24px 0;
 	color: #00AFEF;
 	font-weight: bold;
 	text-align: left;
 	text-transform: uppercase;
+}
+
+.title-organizers  {
+	color: #ffffff;
 }
 
 .title-second{
