@@ -32,6 +32,10 @@ ul {
 	padding: 2px;;
 }
 
+.container-background {
+	width: 100%;
+}
+
 .face, .mail {
 	display: block;
 	width: 45px;
