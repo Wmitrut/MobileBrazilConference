@@ -29,11 +29,20 @@ ul li {
 }
 
 ul {
-	padding: 2px;;
+	padding: 2px;
 }
 
 .container-background {
 	width: 100%;
+}
+
+.container{
+	padding: 0;
+	z-index: 10;
+}
+
+.row {
+	margin-left: 0px;
 }
 
 .face, .mail {
@@ -111,15 +120,6 @@ img {
 	z-index: 1;
 }
 
-.container{
-	padding: 0;
-	z-index: 10;
-}
-
-.row {
-	margin-left: 0px;
-}
-
 .wrapper {
 	margin: 0 auto;
 	width: 960px;
@@ -136,23 +136,6 @@ li.face-like {
 	background-color: #00AFEF;
 }
 
-.organizers {
-	background-color: #00AFEF;
-	padding: 20px;
-}
-
-.organizers-title{
-	color: #ffffff;
-}
-
-.organizers-name{
-	font-size: 1.6em;
-	text-transform: uppercase;
-	letter-spacing: -0.09em;
-	color: #fff;
-	text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
-}
-
 .about-title {
 	padding-top: 60px;
 	font-family: 'Amaranth';
@@ -167,8 +150,9 @@ li.face-like {
 }
 
 .about-text {
-	color: #221E5C;
+	color: #ffffff;
 	font-size: 20px;
+	opacity: 0.90;
 }
 
 .about-event-name {
@@ -222,7 +206,7 @@ a:hover .link {
 }
 
 #enrollment {
-	padding-top: 0;
+	padding-top: 100px;
 	margin-bottom: 0;
 }
 
@@ -256,7 +240,6 @@ a:hover .link {
 .enrollment .section-title {
 	position: relative;
 	text-align: center;
-	padding-top: 75px;
 	margin-bottom: 20px;
 	font-size: 1.8em;
 }
@@ -329,4 +312,21 @@ a:hover .link {
 
 .title-local {
 	text-align: left;
+}
+
+.organizers {
+	background-color: #00AFEF;
+	padding: 20px;
+}
+
+.organizers-title{
+	color: #ffffff;
+}
+
+.organizers-name{
+	font-size: 1.6em;
+	text-transform: uppercase;
+	letter-spacing: -0.09em;
+	color: #fff;
+	text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
 }
