@@ -175,6 +175,10 @@ li.face-like {
 	padding: 0 0 70px 0; 
 }
 
+div.apoiadores.span7 {
+	margin-left: 0px;
+}
+
 a:hover .link {
 	opacity: 0.50;
 	padding-bottom: 3px;
