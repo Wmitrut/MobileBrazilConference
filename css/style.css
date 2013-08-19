@@ -31,6 +31,24 @@ ul {
 	padding: 2px;
 }
 
+hr {
+	height:3px;
+	width: 100%;
+	border-width:0;
+	background: transparent url(../img/linha.png) center no-repeat;
+}
+
+.hr {
+	height:3px;
+	width: 100%;
+	border-width:0;
+	background: transparent url(../img/linha-cinza.png) center no-repeat;
+}
+
+.text-align {
+	text-align: center;
+}
+
 .container-background {
 	width: 100%;
 }
@@ -165,7 +183,7 @@ li.face-like {
 	padding: 35px 50px;
 }
 
-.speakers, .sponsors, .local{
+.speakers, .sponsors, .local, .programacao{
 	padding: 70px 0; 
 	background: url('../img/cream_pixels.png');
 }
@@ -332,4 +350,13 @@ a:hover .link {
 	letter-spacing: -0.09em;
 	color: #fff;
 	text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+}
+
+.offset-half {
+	margin-left: 90px;
+	margin-bottom: 20px;
+}
+
+.span-size-special {
+	width: 540px;
 }
