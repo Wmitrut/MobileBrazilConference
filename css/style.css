@@ -70,11 +70,11 @@ hr {
 }
 
 .face {
-	background: url(../img/icons/sprite-menu.png) 10px 10px no-repeat;
+	background: url(../img/icons/sprite-menu.png) 2px 10px no-repeat;
 }
 
 .mail {
-	background: url(../img/icons/sprite-menu.png) -52px 10px no-repeat;
+	background: url(../img/icons/sprite-menu.png) -58px 10px no-repeat;
 }
 
 a:hover {
@@ -359,4 +359,23 @@ a:hover .link {
 
 .span-size-special {
 	width: 540px;
+}
+
+.navbar .nav>li>a {
+	padding: 10px 9px 10px;
+}
+
+.speakers p.name, p.activity {
+	font-family: Amaranth;
+	font-size: 1.3em;
+}
+
+.speakers p.name {
+	color: #00AFEF;
+	font-size: 1.4em;
+}
+
+.speakers p.hour {
+	font-weight: bold;
+	font-size: 1.1em;
 }
