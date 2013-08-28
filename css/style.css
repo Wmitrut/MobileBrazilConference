@@ -285,7 +285,8 @@ a:hover .link {
 }
 
 .event-contact h3{
-	font-size: 20px
+	font-size: 20px;
+	padding-top: 20px;
 }
 
 .event-contact u{
@@ -358,6 +359,9 @@ a:hover .link {
 
 .offset-half {
 	margin-left: 90px;
+}
+
+div.span12.offset-half {
 	margin-bottom: 20px;
 }
 
@@ -382,4 +386,10 @@ a:hover .link {
 .speakers p.hour {
 	font-weight: bold;
 	font-size: 1.1em;
+}
+
+.esgotado {
+	margin-top: 25px;
+	position: absolute;
+	margin-left: 250px;
 }
