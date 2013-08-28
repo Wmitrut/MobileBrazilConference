@@ -87,9 +87,9 @@
 	}
 
 	.esgotado {
-		margin-top: 70px;
+		margin-top: 40px;
 		position: absolute;
-		margin-left: 0px;
+		margin-left: -15px;
 	}
 }
 
@@ -98,7 +98,6 @@
 		position: relative;
 	}
 
-	
 	#local #ctn-people img{
 		float: left;
 		padding-left: 0px;
@@ -129,8 +128,13 @@
 		float: left;
 		margin-right: 0px;
 	}
-}
 
+	.esgotado {
+		margin-top: 40px;
+		position: absolute;
+		margin-left: 0px;
+	}
+}
 
 @media only screen and (max-width: 400px) {
 	.title-speakers, .title-sponsors,
