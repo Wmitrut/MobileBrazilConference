@@ -62,6 +62,10 @@ hr {
 	margin-left: 0px;
 }
 
+.row.resizing {
+	padding-top: 10px;
+}
+
 .face, .mail {
 	display: block;
 	width: 45px;
